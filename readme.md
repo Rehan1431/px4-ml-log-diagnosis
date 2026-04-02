@@ -8,17 +8,17 @@ The goal is to move beyond manual log inspection by using an **Isolation Forest*
 ### 1. Native UI Integration
 The Flight Review frontend is modified to include a "ML Data (CSV)" export option, allowing users to trigger the ML pipeline directly from the browser.
 
-![Web UI Integration](images/webpage.png)
+![Web UI Integration](webpage.png)
 
 ### 2. High-Frequency Data Processing
 The backend extracts raw `gyro_rad` data, normalizing thousands of rows of telemetry for model inference. 
 
-![Terminal Output](images/terminal.png)
+![Terminal Output](terminal.png)
 
 ### 3. AI Anomaly Detection Results
 The model successfully ignores standard flight vibrations and isolates significant deviations (red dots) that indicate mechanical failure or sensor clipping.
 
-![ML Analysis Report](images/ai_flight_analysis.png)
+![ML Analysis Report](ai_flight_analysis.png)
 
 ## Technical Stack
 * **Language:** Python 3.10
