@@ -19,8 +19,7 @@ The pipeline successfully ingested raw crash data, synchronized the frequencies,
 
 It explicitly caught the primary failure mode: **Motor 0 dropping to 0 PWM at 38.5s**, resulting in an immediate **-65 m/s² Z-axis impact**.
 
-![Flight Telemetry](flight_telemetry.jpg)
-
+![Flight Telemetry](flight_telemetry.png)
 ### Technical Stack
 * **Language:** Python 3.10
 * **Data Ingestion:** PyArrow / Pandas (Parquet)
